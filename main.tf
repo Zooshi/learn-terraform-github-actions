@@ -25,9 +25,13 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "lb" {
-  name = "loadbalancer" 
-}
+  name = "loadbalancer"
+  #path = "/system/"
 
+  tags = {
+    tag-key = "tag-value"
+  }
+}
 # resource "random_pet" "sg" {}
 
 # data "aws_ami" "ubuntu" {
