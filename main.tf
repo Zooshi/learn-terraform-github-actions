@@ -32,6 +32,10 @@ resource "aws_iam_user" "lb" {
     tag-key = "tag-value"
   }
 }
+
+# resource "aws_iam_user" "lb" {
+#   name = "loadbalancer"
+# }
 # resource "random_pet" "sg" {}
 
 # data "aws_ami" "ubuntu" {
