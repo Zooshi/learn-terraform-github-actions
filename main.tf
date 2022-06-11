@@ -15,7 +15,7 @@ terraform {
     organization = "DanielWeikertOrga"
 
     workspaces {
-      name = "terraform"
+      name = "APIdrivenWorkspaceForGithubActions"
     }
   }
 }
